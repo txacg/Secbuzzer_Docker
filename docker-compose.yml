@@ -1,0 +1,26 @@
+sbmysql:
+  image: mysql:latest
+  environment:
+    - MYSQL_ROOT_PASSWORD=ji394icst
+    - MYSQL_DATABASE=SecBuzzers
+    - MYSQL_USER=dbuser
+    - MYSQL_PASSWORD=ji394icst
+  ports:
+    - 3306:3306
+  volumes:
+    - ./db-dump:/docker-entrypoint-initdb.d
+  restart: always
+
+sbes:
+  image: elasticsearch:1.4.0
+  user: elsearch
+  ports:
+    - "39200:9200" 
+    - "39300:9300" 
+  restart: always
+
+sbcrawler:
+  image: crawler:1.0
+  command: java -jar /tmp/twittercrawler.jar
+  restart: always
+

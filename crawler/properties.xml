@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>storeToXML</comment>
+<entry key="user">dbuser</entry>
+<entry key="db">SecBuzzers</entry>
+<entry key="label">level</entry>
+<entry key="message">message</entry>
+<entry key="table">logging</entry>
+<entry key="pass">ji394icst</entry>
+<entry key="host">192.168.19.100</entry>
+
+<entry key="logCarving_host">192.168.19.100</entry>
+<entry key="logCarving_user">dbuser</entry>
+<entry key="logCarving_db">SecBuzzers</entry>
+<entry key="logCarving_pass">ji394icst</entry>
+<entry key="logCarving_label">level</entry>
+<entry key="logCarving_message">message</entry>
+<entry key="logCarving_table">logging</entry>
+
+<entry key="mysql_host">192.168.19.100</entry>
+<entry key="mysql_user">dbuser</entry>
+<entry key="mysql_db">SecBuzzers</entry>
+<entry key="mysql_pass">ji394icst</entry>
+
+<entry key="es_host">192.168.19.100</entry>
+<entry key="es_apiport">39300</entry>
+<entry key="es_cluster">TwitterDB</entry>
+<entry key="es_indices">twitter</entry>
+
+</properties>
